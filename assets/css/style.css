@@ -1,6 +1,40 @@
-h1 {
-    margin-bottom: 2px;
+body {
+    background-color: rgb(244, 244, 244);
+    color:rgb(99, 73, 0);
+    font-family: sans-serif;
 }
+
+a {
+    color: rgb(99, 73, 0);
+    font-size: 20px;
+}
+
+#navigation {
+    height: 225px;
+    width: 100%;
+    background-image:url("../images/heading-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    color: rgb(52, 52, 52);
+}
+h1 {
+    height: 62px;
+    margin-bottom: 315px;
+    margin-left: -7px;
+    margin-top: 10px;
+    background-color: rgb(251, 247, 234);
+    border: solid rgb(251, 247, 234) 2px;
+    padding-left: 154px;
+    padding-right: 20px;
+    padding-top: 15px;
+    font-size: 27px;
+    white-space: nowrap;
+    color: rgb(99, 73, 0);
+}
+
 header nav,
 footer ul {
     display: flex;
@@ -8,6 +42,7 @@ footer ul {
     justify-content: flex-end;
     align-items: flex-start;
     margin-right: 50px;
+    list-style-type: none;
 }
 
 header nav li {
@@ -28,7 +63,7 @@ footer header {
     /* Positions content in main section and footer*/
     flex-basis: 25%;
     /* Adds right border to main section headers and footer headers*/
-    border-right: solid black 3px;
+    border-right: solid rgb(163, 149, 102) 3px;
     /* Sets space between content to the right of each main section header/footer 
     header and their right border*/
     margin-right: 40px;
@@ -46,7 +81,7 @@ footer ul {
 }
 
 section div h3 {
-    /* Sets space between bottom the of section div h3's and the top of section div p's */
+    /* Sets space between thde bottom of section div h3's and the top of section div p's */
     margin-bottom: 2px;
 }
 
@@ -64,14 +99,14 @@ section div p {
 
 #projects a {
     /* Gives all link boxes in main section div an outline */
-    outline: solid black 2px;
+    outline: solid rgb(163, 149, 102) 3px;
     /* Sets link boxes width */
     width: 350px;
 }
 
 #projects div {
     /* Puts border around header and p of link boxes */
-    border: solid black 2px;
+    border: solid rgb(251, 247, 234) 2px;
     display: flex;
     /* Sets position of header and p within link boxes*/
     flex-direction: column;
