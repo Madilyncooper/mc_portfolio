@@ -1,60 +1,72 @@
-
-section {
+section,
+footer {
     display: flex;
+    /* Adds break between main section and footer header borders */
     margin: 40px 0;
 }
 
-section header {
+section header,
+footer header {
+    /* Lines up content in main section and footer*/
     flex-basis: 25%;
+    /* Adds right border to main section headers and footer headers*/
     border-right: solid black 3px;
+    /* Puts space between content to the right of each main section header/footer 
+    header and their right border*/
     margin-right: 40px;
+    /* Puts main section headers and footer headers close to the right border */
     text-align: right;
+    /* Puts space between main section headers/footer headers and their 
+    right border */
     padding-right: 10px;
 }
 
-section div {
+section div,
+footer ul {
+    /* Positions main section and footer content in center of page */
     flex-basis: 60%;
 }
 
 #projects {
+    /* Allows all link boxes in the main section div that has #projects id
+     to be positioned*/
     display: flex;
     flex-wrap: wrap;
 }
 
 #projects a {
-    outline: solid black 2px; 
+    /* Gives all link boxes in main section div an outline */
+    outline: solid black 2px;
+    /* Link boxes width */
     width: 350px;
 }
 
 #projects a:not(:first-child) {
+    /* The height and width of link boxes after first link box */
     height: 150px;
     width: 366px;
 }
 
-#app-one {
-    flex-basis: 100%;
-    height: 340px;
+#projects a:nth-child(2),
+#projects a:nth-child(3) {
+    /* Puts space between link boxes 1 and 2's bottom border and the link 
+    boxes beneath them */
     margin-bottom: 25px;
 }
 
 #projects a:nth-child(3),
 #projects a:nth-child(5) {
+/* Puts space between link boxes 3 and 5's left border and the link 
+boxes to their left */
     margin-left: 25px;
 }
 
-footer {
-    display: flex;
-    margin: 40px 0;
-}
-
-footer header {
-    flex-basis: 25%;
-    border-right: solid black 3px;
-    margin-right: 40px;
-    text-align: right;
-    padding-right: 10px;
-}
-
-footer ul {
-    flex-basis: 60%;
+#p-one {
+    /* Puts first link box on it's own line */
+    flex-basis: 100%;
+    /* Sets the height of 1st link box */
+    height: 340px;
+    /* Give the first link box space between it's bottom border 
+    and the follwing link boxes */
+    margin-bottom: 25px;
 }
