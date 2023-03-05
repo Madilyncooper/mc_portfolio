@@ -1,30 +1,58 @@
+h1 {
+    margin-bottom: 2px;
+}
+header nav,
+footer ul {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 50px;
+}
+
+header nav li {
+    display: inline-flex;
+    margin-left: 25px;
+
+}
+
 section,
 footer {
     display: flex;
-    /* Adds break between main section and footer header borders */
+    /* Sets space between main section and footer header borders */
     margin: 40px 0;
 }
 
 section header,
 footer header {
-    /* Lines up content in main section and footer*/
+    /* Positions content in main section and footer*/
     flex-basis: 25%;
     /* Adds right border to main section headers and footer headers*/
     border-right: solid black 3px;
-    /* Puts space between content to the right of each main section header/footer 
+    /* Sets space between content to the right of each main section header/footer 
     header and their right border*/
     margin-right: 40px;
-    /* Puts main section headers and footer headers close to the right border */
+    /* Sets position of main section header and footer header in relation to their right border  */
     text-align: right;
-    /* Puts space between main section headers/footer headers and their 
+    /* Sets space between main section headers/footer headers and their 
     right border */
     padding-right: 10px;
 }
 
 section div,
 footer ul {
-    /* Positions main section and footer content in center of page */
+    /* Positions main section and footer content */
     flex-basis: 60%;
+}
+
+section div h3 {
+    /* Sets space between bottom the of section div h3's and the top of section div p's */
+    margin-bottom: 2px;
+}
+
+section div p {
+    /* Sets space between top of section div p's and the bottom of section div h3's */
+    margin-top: 5px;
 }
 
 #projects {
@@ -37,36 +65,76 @@ footer ul {
 #projects a {
     /* Gives all link boxes in main section div an outline */
     outline: solid black 2px;
-    /* Link boxes width */
+    /* Sets link boxes width */
     width: 350px;
 }
 
+#projects div {
+    /* Puts border around header and p of link boxes */
+    border: solid black 2px;
+    display: flex;
+    /* Sets position of header and p within link boxes*/
+    flex-direction: column;
+    flex-basis: 50%;
+    /* Sets space between h3/p bottom border and the bottom border of link boxes */
+    margin-bottom: 20px;
+}
+
+#projects a:first-child {
+    /* Sets space between the right border h3/p of first link box and right border
+    of the link box it is in */
+    padding-right: 300px;
+}
+
 #projects a:not(:first-child) {
-    /* The height and width of link boxes after first link box */
+    /* Sets the height and width of link boxes after first link box */
     height: 150px;
     width: 366px;
+    display: flex;
+    align-items: flex-end;
 }
 
 #projects a:nth-child(2),
 #projects a:nth-child(3) {
-    /* Puts space between link boxes 1 and 2's bottom border and the link 
+    /* Sets space between link boxes 1 and 2's bottom border and the link 
     boxes beneath them */
     margin-bottom: 25px;
 }
 
 #projects a:nth-child(3),
 #projects a:nth-child(5) {
-/* Puts space between link boxes 3 and 5's left border and the link 
+    /* Sets space between link boxes 3 and 5's left border and the link 
 boxes to their left */
     margin-left: 25px;
 }
 
 #p-one {
-    /* Puts first link box on it's own line */
+    /* Sets position of first link box */
     flex-basis: 100%;
     /* Sets the height of 1st link box */
     height: 340px;
-    /* Give the first link box space between it's bottom border 
+    /* Sets space between first link box's bottom border 
     and the follwing link boxes */
     margin-bottom: 25px;
+    /* Sets the position of the bordered h3/p within link box */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
+
+#p-one div {
+    /* Sets space between bottom border of the first link box's h3/p border 
+    and the first link box's border*/
+    margin-bottom: 25px;
+}
+
+footer ul {
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+
+footer ul li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
