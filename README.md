@@ -1,6 +1,6 @@
 # Madilyn Cooper Portfolio
 
-A portfolio in the form of a webiste that display projects I want to be public. 
+A portfolio in the form of a webiste that displays projects I want to be public. 
 
 ## Motivation
 
