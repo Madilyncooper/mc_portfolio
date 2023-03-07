@@ -188,10 +188,19 @@ boxes to their left */
     background-size: contain;
 }
 
+#projects a:nth-child(2):hover {
+    opacity: .8;
+}
+
+
 #projects a:nth-child(3) {
     background-image: url("../images/projectthree.jpg");
     background-position: center;
     background-size: contain;
+}
+
+#projects a:nth-child(3):hover {
+    opacity: .8;
 }
 
 #projects a:nth-child(4) {
@@ -200,12 +209,19 @@ boxes to their left */
     background-size: contain;
 }
 
+#projects a:nth-child(4):hover {
+    opacity: .8;
+}
+
 #projects a:nth-child(5) {
     background-image: url("../images/projectfive.jpg");
     background-position: center;
     background-size: contain;
 }
 
+#projects a:nth-child(5):hover {
+    opacity: .8;
+}
 
 #p-one {
     /* Sets position of first link box */
@@ -224,6 +240,10 @@ boxes to their left */
     background-size: contain;
 }
 
+#p-one:hover {
+    opacity: .8;
+}
+
 #p-one div {
     /* Sets space between bottom border of the first link box's h3/p border 
     and the first link box's border*/
@@ -239,6 +259,10 @@ footer ul {
 footer ul li {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+footer ul li:hover {
+    text-decoration: underline rgb(99, 73, 0);
 }
 
 @media screen and (max-width: 1180px) {
