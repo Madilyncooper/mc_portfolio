@@ -34,6 +34,6 @@ $ git clone <paste the copied link>
 
  ## Screenshot:
 <img width="749" alt="Screen Shot 2023-03-06 at 5 18 12 PM" src="https://user-images.githubusercontent.com/124405920/223294241-e96b343a-e193-49b8-943d-ccd05cbe1f6d.png">
-
+<img width="749" alt="Screen Shot 2023-03-06 at 5 18 24 PM" src="https://user-images.githubusercontent.com/124405920/223294371-ea7cf13e-2f43-490a-91d6-299892fadce5.png">
 
 
