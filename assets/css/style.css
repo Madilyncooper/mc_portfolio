@@ -265,6 +265,10 @@ footer ul li:hover {
     text-decoration: underline rgb(99, 73, 0);
 }
 
+footer header {
+    margin-right: -61px;
+}
+
 @media screen and (max-width: 1180px) {
     #projects a {
         height: 170px;
