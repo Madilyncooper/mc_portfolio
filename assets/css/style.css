@@ -115,11 +115,6 @@ footer ul {
     flex-basis: 65%;
 }
 
-section div h3 {
-    /* Sets space between thde bottom of section div h3's and the top of section div p's */
-    margin-bottom: 2px;
-}
-
 section div p {
     /* Sets space between top of section div p's and the bottom of section div h3's */
     margin-top: 5px;
